@@ -1,0 +1,220 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@700&display=swap");
+
+/* Global */
+:root {
+  --acent: #a37e86;
+  --bg-color: #fafafa;
+  --acnt-colour: #0c3636;
+}
+/* var(--acent) */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* Un Layout CSS */
+
+/* Navbar */
+header {
+  padding: 0.4rem 1rem;
+  background-color: rgb(209, 201, 201);
+  justify-content: space-between;
+  /* border-bottom: solid 0.5rem var(--acent); */
+}
+
+.logo-temp {
+  font-family: "Poltawski Nowy", serif;
+  font-size: 2rem;
+  margin: 0;
+}
+.navlinks {
+  padding: 0 1rem;
+}
+
+.nav li {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.footer {
+  background-color: rgb(129, 152, 204);
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+}
+
+.footer ul {
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 0;
+}
+
+.footer li {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.footlogo {
+  width: 2rem;
+  height: auto;
+}
+
+/* Home Page */
+/* Home Intro */
+
+#homeintro {
+  padding: 2rem;
+  background-color: rgb(214, 196, 230);
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#homeintrotext {
+  text-align: end;
+  padding: 0 1rem;
+}
+
+#homeinth1 {
+  font-family: "Poltawski Nowy", serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+#homeintro p {
+  margin: 0.5em 0.1rem;
+  font-size: 1.2rem;
+}
+
+#homeprofile {
+  width: 30%;
+  max-width: 15rem;
+  border-radius: 100%;
+  border: solid 0.4rem rgb(80, 80, 80);
+}
+
+/* Home Statement */
+
+#homestatement {
+  background-color: #eec4cd;
+  padding: 2rem;
+}
+
+#homestatement p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* Home Intests */
+
+#homeintrests {
+  background-color: rgb(168, 243, 243);
+  padding: 3rem 3rem 5rem 3rem;
+  text-align: center;
+}
+
+#homeintrests p {
+  font-size: 1.2rem;
+}
+
+#homeicons {
+  padding: 3rem 2rem;
+  justify-content: space-around;
+}
+
+#homeicons i {
+  font-size: 5rem;
+}
+
+/* Home Quote */
+
+#homequote {
+  background-color: rgb(158, 179, 139);
+  padding: 5rem;
+}
+
+#homequote p {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* Bio Page */
+
+/* Bio About me */
+
+#bioaboutme {
+  padding: 2rem;
+  background-color: #c598a0;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Bio Skills */
+
+#bioskills {
+  background-color: rgb(154, 208, 184);
+  padding: 2rem;
+}
+
+/* Experience Page */
+
+#expintro {
+  padding: 2rem;
+  background-color: #d6b3ba;
+  text-align: center;
+}
+#expwork {
+  padding: 2rem;
+  background-color: #d7c1af;
+  text-align: center;
+}
+
+#expeducation {
+  padding: 2rem;
+  background-color: #afb3d7;
+  text-align: center;
+}
+
+#expwork p,
+#expeducation p {
+  padding: 1rem;
+  text-align: justify;
+}
+
+/* Portfolio */
+
+/* Portfolio Intro */
+
+#portintro {
+  background-color: #e2c6e1;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Portfolio projects  */
+
+#portprojects {
+  justify-content: center;
+  padding: 1rem;
+  background-color: #c3e3d1;
+  flex-wrap: wrap;
+}
+#portprojects div {
+  padding: 1rem;
+}
